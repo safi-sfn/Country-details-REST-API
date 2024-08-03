@@ -26,7 +26,7 @@ function renderCountries(data){
         // console.log(country.name)
         const countryCard = document.createElement('a')
         countryCard.classList.add('country-card')
-        countryCard.href = `/HTML/country-detail.html?name=${country.name.common}`
+        countryCard.href = `./country-detail.html?name=${country.name.common}`
         // countryCard.target = '_blank'
         const cardHtml =`
     <img src="${country.flags.svg}" alt="${country.flags.alt}">
